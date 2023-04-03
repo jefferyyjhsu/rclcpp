@@ -35,6 +35,7 @@
 
 namespace rclcpp
 {
+extern template class Subscription<rcl_interfaces::msg::ParameterEvent>;
 
 struct ParameterCallbackHandle
 {
